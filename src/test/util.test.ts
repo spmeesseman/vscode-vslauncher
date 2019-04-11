@@ -36,11 +36,11 @@ suite("Util tests", () =>
   });
 
   test("Camel case a value", () => {
-    assert(util.camelCase("vslauncher", 4) == 'vsLauncher');
+    assert(util.camelCase("vslauncher", 2) == 'vsLauncher');
   });
 
   test("Proper case a value", () => {
-    assert(util.properCase("vslauncher") == 'vslauncher');
+    assert(util.properCase("vslauncher") == 'Vslauncher');
   });
 
   test("Timeout", () => {
