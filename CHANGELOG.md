@@ -1,3 +1,16 @@
+## [1.0.1](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.0...v1.0.1) (2019-04-11)
+
+
+### Bug Fixes
+
+* setting path to vs ide executable in settings does not work ([3c29943](https://github.com/spmeesseman/vscode-vslauncher/commit/3c29943))
+* solution files are opening as plain files and not as vs solutions ([573e63e](https://github.com/spmeesseman/vscode-vslauncher/commit/573e63e))
+
+
+### Documentation
+
+* **readme:** update initial info ([fb1be43](https://github.com/spmeesseman/vscode-vslauncher/commit/fb1be43))
+
 # 1.0.0 (2019-04-11)
 
 
