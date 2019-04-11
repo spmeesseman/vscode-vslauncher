@@ -12,7 +12,7 @@
 [![DevDependencies Status](https://david-dm.org/spmeesseman/vscode-vslauncher/dev-status.svg)](https://david-dm.org/spmeesseman/vscode-vslauncher?type=dev)
 [![Known Vulnerabilities](https://snyk.io/test/github/spmeesseman/vscode-vslauncher/badge.svg)](https://snyk.io/test/github/spmeesseman/vscode-vslauncher)
 [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/spmeesseman/vscode-vslauncher.svg)](https://isitmaintained.com/project/spmeesseman/vscode-vslauncher "Average time to resolve an issue")
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/spmeesseman/vscode-vslauncher.svg)](https://isitmaintained.com/project/spmeesseman/vscode-vslauncher "Percentage of issues still open")
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/spmeesseman/vscode-vslauncher.svg)](https://isitmaintained.com/project/spmeesseman/vscode-vslauncher "Percentage of issues still open") [![Greenkeeper badge](https://badges.greenkeeper.io/spmeesseman/vscode-vslauncher.svg)](https://greenkeeper.io/)
 
 ## Description
 
