@@ -9,7 +9,7 @@ import {
   WorkspaceConfiguration
 } from "vscode";
 
-const taskExplorer = "taskExplorer";
+const vsLauncher = "vsLauncher";
 
 class Configuration {
   private configuration: WorkspaceConfiguration;
@@ -20,16 +20,16 @@ class Configuration {
   }
 
   constructor() {
-    this.configuration = workspace.getConfiguration(taskExplorer);
+    this.configuration = workspace.getConfiguration(vsLauncher);
     workspace.onDidChangeConfiguration(this.onConfigurationChanged, this);
   }
 
   private onConfigurationChanged(event: ConfigurationChangeEvent) {
-    if (!event.affectsConfiguration(taskExplorer)) {
+    if (!event.affectsConfiguration(vsLauncher)) {
       return;
     }
 
-    this.configuration = workspace.getConfiguration(taskExplorer);
+    this.configuration = workspace.getConfiguration(vsLauncher);
 
     this._onDidChange.fire(event);
   }

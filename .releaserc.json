@@ -63,8 +63,8 @@
     "semantic-release-vsce",
     {
       "path": "@semantic-release/github",
-      "assets": "vscode-taskexplorer.vsix"
+      "assets": "vscode-vslauncher.vsix"
     }
   ],
-  "packageVsix": "vscode-taskexplorer.vsix"
+  "packageVsix": "vscode-vslauncher.vsix"
 }

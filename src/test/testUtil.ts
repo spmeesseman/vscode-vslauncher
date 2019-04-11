@@ -37,7 +37,7 @@ export function spawn(
 
 export function activeExtension() {
   return new Promise<void>((resolve, reject) => {
-    const extension = extensions.getExtension("spmeesseman.vscode-taskexplorer");
+    const extension = extensions.getExtension("spmeesseman.vscode-vslauncher");
     if (!extension) {
       reject();
       return;
