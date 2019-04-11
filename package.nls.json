@@ -1,0 +1,7 @@
+{
+	"description": "Open a file in Visual Studio via context menu",
+	"displayName": "Visual Studio Launcher",
+	"config.vsLauncher.pathToVS": "Path to Visual Studio (devenv.exe)",
+	"config.vsLauncher.debug": "Turn on logging",
+	"command.openInVS": "Open in Visual Studio"
+}
