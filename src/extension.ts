@@ -123,9 +123,11 @@ async function _activate(context: ExtensionContext, disposables: Disposable[])
 		let args: Array<string> = [];
 		let isProj: boolean = path.extname(fileUri.fsPath) === '.csproj' ||
 							  path.extname(fileUri.fsPath) === '.vcproj' ||
-							  path.extname(fileUri.fsPath) === '.vbproj';
+							  path.extname(fileUri.fsPath) === '.vbproj' ||
+							  path.extname(fileUri.fsPath) === '.vdproj' ||
+							  path.extname(fileUri.fsPath) === '.sln';
 		if (isProj) {
-			log('      VS project detected');
+			log('      VS project/solution detected');
 		}
 		else {
 			args.push('/edit');
