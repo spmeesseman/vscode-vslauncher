@@ -3,7 +3,7 @@
     "displayName": "Visual Studio Launcher",
     "description": "Open projects, solutions, and files in Visual Studio via context menu",
     "icon": "res/logo.png",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "spmeesseman",
     "license": "MIT",
     "repository": {

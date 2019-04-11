@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.1...v1.0.2) (2019-04-11)
+
+
+### Documentation
+
+* **readme:** correct grammatical errors, use new keywords ([0be13ca](https://github.com/spmeesseman/vscode-vslauncher/commit/0be13ca))
+
 ## [1.0.1](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.0...v1.0.1) (2019-04-11)
 
 
