@@ -1,7 +1,7 @@
 {
     "name": "vscode-vslauncher",
     "displayName": "Visual Studio Launcher",
-    "description": "Open a projects and files in Visual Studio via context menu",
+    "description": "Open projects, solutions, and files in Visual Studio via context menu",
     "icon": "res/logo.png",
     "version": "1.0.1",
     "publisher": "spmeesseman",
@@ -23,9 +23,9 @@
     "keywords": [
         "vs",
         "visual studio",
-        "csproj",
-        "vdproj",
-        "vcproj",
+        "project",
+        "solution",
+        "context menu",
         "multi-root ready"
     ],
     "main": "./out/extension",
