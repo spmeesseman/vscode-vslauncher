@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.2...v1.0.3) (2019-04-11)
+
+
+### Documentation
+
+* **readme:** add Greenkeeper badge ([3eb550d](https://github.com/spmeesseman/vscode-vslauncher/commit/3eb550d))
+
 ## [1.0.2](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.1...v1.0.2) (2019-04-11)
 
 
