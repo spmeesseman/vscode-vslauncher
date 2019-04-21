@@ -1,3 +1,20 @@
+## [1.0.4](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.3...v1.0.4) (2019-04-21)
+
+
+### Bug Fixes
+
+* final file blacklist to decrease size of extension ([da73e9d](https://github.com/spmeesseman/vscode-vslauncher/commit/da73e9d))
+
+
+### Build System
+
+* complete ignore list from extension build ([81d8a25](https://github.com/spmeesseman/vscode-vslauncher/commit/81d8a25))
+
+
+### Documentation
+
+* remove unused todo file [skip ci] ([43632ea](https://github.com/spmeesseman/vscode-vslauncher/commit/43632ea))
+
 ## [1.0.3](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.2...v1.0.3) (2019-04-11)
 
 
