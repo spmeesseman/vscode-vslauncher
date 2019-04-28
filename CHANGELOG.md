@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.4...v1.0.5) (2019-04-28)
+
+
+### Documentation
+
+* **readme:** update builds list ([92dd587](https://github.com/spmeesseman/vscode-vslauncher/commit/92dd587))
+
 ## [1.0.4](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.3...v1.0.4) (2019-04-21)
 
 
