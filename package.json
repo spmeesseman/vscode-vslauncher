@@ -82,7 +82,7 @@
         "tslint": "^5.8.0",
         "typescript": "^3.0.3",
         "vsce": "^1.48.0",
-        "vscode": "^1.1.30",
+        "vscode": "^1.1.34",
         "vscode-nls-dev": "3.2.6"
     },
     "contributes": {
