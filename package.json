@@ -1,10 +1,13 @@
 {
     "name": "vscode-vslauncher",
+    "version": "1.0.5",
     "displayName": "Visual Studio Launcher",
     "description": "Open projects, solutions, and files in Visual Studio via context menu",
     "icon": "res/logo.png",
-    "version": "1.0.5",
-    "author": "spmeesseman",
+    "publisher": "spmeesseman",
+    "author": {
+        "name": "Scott Meesseman"
+    },
     "license": "MIT",
     "repository": {
         "type": "git",
