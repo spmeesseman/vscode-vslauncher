@@ -4,7 +4,7 @@
     "description": "Open projects, solutions, and files in Visual Studio via context menu",
     "icon": "res/logo.png",
     "version": "1.0.5",
-    "publisher": "spmeesseman",
+    "author": "spmeesseman",
     "license": "MIT",
     "repository": {
         "type": "git",
