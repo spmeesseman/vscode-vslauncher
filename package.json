@@ -62,7 +62,7 @@
         "@semantic-release/git": "^7.0.8",
         "@types/glob": "^7.1.1",
         "@types/istanbul": "^0.4.30",
-        "@types/mocha": "^5.2.6",
+        "@types/mocha": "^5.2.7",
         "@types/node": "^11.13.0",
         "codecov": "^3.2.0",
         "commitizen": "^3.0.7",
