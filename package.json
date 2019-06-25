@@ -80,7 +80,7 @@
         "prettier": "^1.16.4",
         "prettylint": "^1.0.0",
         "remap-istanbul": "^0.13.0",
-        "semantic-release": "^15.13.3",
+        "semantic-release": "^15.13.17",
         "semantic-release-vsce": "^2.2.6",
         "tslint": "^5.8.0",
         "typescript": "^3.0.3",
