@@ -74,7 +74,7 @@
         "iconv-lite": "^0.4.23",
         "istanbul": "^0.4.5",
         "jschardet": "^2.1.0",
-        "mocha": "^6.0.2",
+        "mocha": "^7.0.1",
         "mocha-junit-reporter": "^1.18.0",
         "mocha-multi-reporters": "^1.1.7",
         "prettier": "^1.16.4",
