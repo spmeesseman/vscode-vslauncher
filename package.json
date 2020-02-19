@@ -63,7 +63,7 @@
         "@types/glob": "^7.1.1",
         "@types/istanbul": "^0.4.30",
         "@types/mocha": "^5.2.6",
-        "@types/node": "^11.13.0",
+        "@types/node": "^13.7.3",
         "codecov": "^3.2.0",
         "commitizen": "^3.0.7",
         "conventional-changelog-spm": "^1.2.3",
