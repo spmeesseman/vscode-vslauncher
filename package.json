@@ -55,7 +55,7 @@
         "commit": "npx git-cz"
     },
     "dependencies": {
-        "vscode-nls": "^4.0.0"
+        "vscode-nls": "^4.1.2"
     },
     "devDependencies": {
         "@semantic-release/changelog": "^3.0.2",
