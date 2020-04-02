@@ -84,7 +84,7 @@
         "semantic-release-vsce": "^2.2.6",
         "tslint": "^5.8.0",
         "typescript": "^3.0.3",
-        "vsce": "^1.48.0",
+        "vsce": "^1.75.0",
         "vscode": "^1.1.30",
         "vscode-nls-dev": "3.2.6"
     },
