@@ -104,14 +104,14 @@
             "editor/context": [
                 {
                     "command": "vsLauncher.openInVS",
-                    "group": "9_vslaunch",
+                    "group": "navigation",
                     "when": "resourceScheme == file"
                 }
             ],
             "explorer/context": [
                 {
                     "command": "vsLauncher.openInVS",
-                    "group": "9_vslaunch",
+                    "group": "navigation",
                     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
                 }
             ]
