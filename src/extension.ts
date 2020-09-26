@@ -45,6 +45,9 @@ async function _activate(context: ExtensionContext, disposables: Disposable[])
 
 	var disposable = commands.registerCommand('vsLauncher.openInVS', (fileUri: Uri) =>
 	{
+		let vsPath2019E: string = 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\devenv.exe';
+		let vsPath2019P: string = 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\IDE\\devenv.exe';
+		let vsPath2019C: string = 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\devenv.exe';
 		let vsPath2017E: string = 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\IDE\\devenv.exe';
 		let vsPath2017P: string = 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\devenv.exe';
 		let vsPath2017C: string = 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\IDE\\devenv.exe';
@@ -61,7 +64,19 @@ async function _activate(context: ExtensionContext, disposables: Disposable[])
 		
 		if (!vsPath) 
 		{
-			if (pathExists(vsPath2017E))
+			if (pathExists(vsPath2019E))
+			{
+				vsPath = vsPath2017E;            
+			}
+			else if (pathExists(vsPath2019C))
+			{
+				vsPath = vsPath2017C;            
+			}
+			else if (pathExists(vsPath2019P))
+			{
+				vsPath = vsPath2017P;            
+			}
+			else if (pathExists(vsPath2017E))
 			{
 				vsPath = vsPath2017E;            
 			}
