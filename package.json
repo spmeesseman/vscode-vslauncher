@@ -26,9 +26,6 @@
     "keywords": [
         "vs",
         "visual studio",
-        "project",
-        "solution",
-        "context menu",
         "multi-root ready"
     ],
     "main": "./out/extension",
