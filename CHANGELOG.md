@@ -1,3 +1,16 @@
+## [1.0.6](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.5...v1.0.6) (2020-09-26)
+
+
+### Build System
+
+* **npm:** fix invalid attribute publisher->author [skip ci] ([ca3839d](https://github.com/spmeesseman/vscode-vslauncher/commit/ca3839d))
+* **npm:** package.json cleanup [skip ci] ([0682d31](https://github.com/spmeesseman/vscode-vslauncher/commit/0682d31))
+
+
+### Code Refactoring
+
+* place menu item  in navigation group as opposed to separate group ([deb9806](https://github.com/spmeesseman/vscode-vslauncher/commit/deb9806))
+
 ## [1.0.5](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.4...v1.0.5) (2019-04-28)
 
 
