@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.6...v1.0.7) (2020-09-27)
+
+
+### Bug Fixes
+
+* will not launch visual studio 2019 [skip ci] ([532c848](https://github.com/spmeesseman/vscode-vslauncher/commit/532c848))
+
 ## [1.0.6](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.5...v1.0.6) (2020-09-26)
 
 
