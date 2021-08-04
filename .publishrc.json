@@ -5,7 +5,7 @@
         "npm run build"
     ],
     "changelogFile":      "CHANGELOG.md",
-    "deployCommand":      "npm run publish",
+    "deployCommand":      "npx vsce publish",
     "githubRelease":      "Y",
     "githubUser":         "spmeesseman",
     "githubAssets":       [
@@ -13,7 +13,7 @@
         "vscode-vslauncher-$(VERSION).vsix|VSIX Installer"
     ],
     "preGithubRelease":   [
-        "npm run package"
+        "npx vsce package"
     ],
     "postGithubRelease":   [
         "npx rimraf *.vsix"
