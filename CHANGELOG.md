@@ -1,5 +1,12 @@
-## [1.0.7](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.6...v1.0.7) (2020-09-27)
+# VSCODE-VSLAUNCHER CHANGE LOG
 
+## Version 1.0.8 (August 4th, 2021)
+
+### Bug Fixes
+
+- VS 2019 project and solution files will not open
+
+## [1.0.7](https://github.com/spmeesseman/vscode-vslauncher/compare/v1.0.6...v1.0.7) (2020-09-27)
 
 ### Bug Fixes
 
