@@ -66,15 +66,15 @@ async function _activate(context: ExtensionContext, disposables: Disposable[])
 		{
 			if (pathExists(vsPath2019E))
 			{
-				vsPath = vsPath2017E;            
+				vsPath = vsPath2019E;            
 			}
 			else if (pathExists(vsPath2019C))
 			{
-				vsPath = vsPath2017C;            
+				vsPath = vsPath2019C;            
 			}
 			else if (pathExists(vsPath2019P))
 			{
-				vsPath = vsPath2017P;            
+				vsPath = vsPath2019P;            
 			}
 			else if (pathExists(vsPath2017E))
 			{
