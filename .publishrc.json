@@ -1,0 +1,27 @@
+{
+    "projectName":        "vscode-vslauncher",
+    "branch":             "master",
+    "buildCommand":       [
+        "npm run build"
+    ],
+    "changelogFile":      "CHANGELOG.md",
+    "deployCommand":      "npm run publish",
+    "githubRelease":      "Y",
+    "githubUser":         "spmeesseman",
+    "githubAssets":       [
+        "CHANGELOG.md|Changelog File",
+        "vscode-vslauncher-$(VERSION).vsix|VSIX Installer"
+    ],
+    "preGithubRelease":   [
+        "npm run package"
+    ],
+    "postGithubRelease":   [
+        "npx rimraf *.vsix"
+    ],
+    "promptVersion":      "N",
+    "repo":               "https://github.com/spmeesseman/vscode-vslauncher.git",
+    "repoType":           "git",
+    "skipChangelogEdits": "N",
+    "skipVersionEdits":   "Y",
+    "vcWebPath":          "https://github.com/spmeesseman/vscode-vslauncher"
+}
